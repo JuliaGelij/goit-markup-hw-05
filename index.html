@@ -33,7 +33,9 @@
                     <!-- Nawigacja do innych stron -->
                     <ul class="navigation-list list">
                         <li class="navigation-item">
-                            <a class="navigation-link active-link" href="index.html"
+                            <a
+                                class="navigation-link active-link"
+                                href="index.html"
                                 >Agencja</a
                             >
                         </li>
@@ -159,7 +161,7 @@
                 <div class="container">
                     <h2 class="activities caption">Czym się zajmujemy</h2>
                     <ul class="activities-list description-list list">
-                        <li>
+                        <li class="activities-item">
                             <img
                                 class="activities-image"
                                 src="images/pic1.jpg"
@@ -167,8 +169,13 @@
                                 height="294"
                                 alt="praca na tablecie"
                             />
+                            <div class="activities-text">
+                                <p class="activities-description">
+                                    Aplikacje komputerowe
+                                </p>
+                            </div>
                         </li>
-                        <li>
+                        <li class="activities-item">
                             <img
                                 class="activities-image"
                                 src="images/pic2.jpg"
@@ -176,8 +183,13 @@
                                 height="294"
                                 alt="praca na laptopie"
                             />
+                            <div class="activities-text">
+                                <p class="activities-description">
+                                    Aplikacje mobilne
+                                </p>
+                            </div>
                         </li>
-                        <li>
+                        <li class="activities-item">
                             <img
                                 class="activities-image"
                                 src="images/pic3.jpg"
@@ -185,6 +197,11 @@
                                 height="294"
                                 alt="drugi obrazek z pracą na tablecie"
                             />
+                            <div class="activities-text">
+                                <p class="activities-description">
+                                    Rozwiązania graficzne
+                                </p>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -572,10 +589,11 @@
             </section>
         </footer>
         <div class="backdrop is-hidden" data-modal>
-        <div class="modal">
-            <button type="button" class="modal-close" data-modal-close>
-                &times
-            </button>
+            <div class="modal">
+                <button type="button" class="modal-close" data-modal-close>
+                    &times;
+                </button>
+            </div>
         </div>
         <script src="./js/modal.js"></script>
     </body>
